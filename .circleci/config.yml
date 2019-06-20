@@ -42,7 +42,7 @@ jobs:
       - *AttachWorkspaceHere
       - run:
           name: release
-          command: npm run semantic-release
+          command: npx semantic-release
 workflows:
   version: 2
   main:
